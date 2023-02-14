@@ -91,7 +91,7 @@ car.addEventListener('load', (event) => {
   const exposure1 = '1',
         orbit1 = '0deg 70deg 10%',
         exposure2 = '1',
-        orbit2 = '-60deg 60deg 100%',
+        orbit2 = '-60deg 65deg 10%',
         exposure3 = '1',
         orbit3 = '0deg 70deg 10%';
   let target1,
@@ -102,13 +102,13 @@ car.addEventListener('load', (event) => {
     if (window.outerWidth <= 900) {
       inner1.classList.add("sm:h-1/5");
       inner2.classList.add("sm:h-1/5");
-      target1 = '0m 3m 0m';
-      target2 = '3.5m -2.5m -2m';
-      target3 = '0m 5m -2m';
+      target1 = '0m -2m -7m';
+      target2 = '5m -2.7m -3m';
+      target3 = '0m -1.5m -7m';
     } else {
-      target1 = '0m 5m 0m';
-      target2 = '12m 0m 0m';
-      target3 = '0m 9m 6m';
+      target1 = '0m -1m -5m';
+      target2 = '5m -2m -2m';
+      target3 = '0m -0.9m -5m';
     }
   }
   setCarPosition();
